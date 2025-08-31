@@ -17,12 +17,12 @@
     transition: transform 0.3s ease;
   }
 
-  /* تأثير hover على الصورة */
+
   .card:hover .card-img-wrapper img {
     transform: scale(1.1);
   }
 
-  /* ظل البطاقات */
+
   .card {
     transition: transform 0.3s, box-shadow 0.3s;
   }
@@ -32,13 +32,13 @@
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
   }
 
-  /* لون اسم المنتج إذا خارج المخزن */
+
   .out-of-stock {
     color: grey;
     font-weight: 600;
   }
 
-  /* ألوان حالة المخزون */
+ 
   .in-stock {
     color: green;
     font-weight: bold;
@@ -52,7 +52,7 @@
     font-weight: bold;
   }
 
-  /* أزرار */
+
   .btn-primary {
     transition: transform 0.2s;
   }
